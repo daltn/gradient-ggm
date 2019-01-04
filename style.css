@@ -1,3 +1,18 @@
+@font-face {
+  font-family: SimplonMono-Regular;
+  src: url('/fonts/SimplonMono-Regular.otf');
+}
+
+@font-face {
+  font-family: HelveticaNeue-Bold;
+  src: url('/fonts/HelveticaNeue-Bold.otf');
+}
+
+@font-face {
+  font-family: Wingdings;
+  src: url('/fonts/Wingdings.ttf');
+}
+
 .gradient {
   position: absolute;
   background-image: radial-gradient(#f9f8f6, #f1bcae);
@@ -6,8 +21,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  /* z-index: 1; */
-  transition: opacity 2s linear;
+  transition: opacity 4s ease-out;
 }
 
 .gradientSubmit {
@@ -18,7 +32,24 @@
   bottom: 0;
   left: 0;
   background-size: 100wh;
-  /* z-index: -1; */
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  text-align: center;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  text-align: center;
+}
+
+:-ms-input-placeholder {
+  text-align: center;
 }
 
 #mc_embed_signup_scroll {
@@ -31,12 +62,19 @@
 }
 
 div.mc-field-group input {
+  font-family: SimplonMono-Regular;
   display: inline-block;
   font-size: 24pt;
-  font-family: 'Barlow', sans-serif;
   background: transparent;
   border: none;
   outline: none;
+}
+
+.soon {
+  color: #ffffff;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 2s linear;
 }
 
 input.button {
@@ -45,6 +83,10 @@ input.button {
   background: transparent;
   border: none;
   outline: none;
+}
+
+#mc-embedded-subscribe {
+  font-family: Wingdings;
 }
 
 @media (max-width: 580px) {
