@@ -1,6 +1,6 @@
-const arrow = document.getElementById('mc-embedded-subscribe');
-const email = document.getElementById('mce-EMAIL');
-const gradient = document.getElementById('gradient');
+const arrow = document.querySelector('#mc-embedded-subscribe');
+const email = document.querySelector('#mce-EMAIL');
+const gradient = document.querySelector('#gradient');
 
 arrow.addEventListener('click', function(e) {
   e.preventDefault();
