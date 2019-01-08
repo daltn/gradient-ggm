@@ -31,5 +31,5 @@ arrow.addEventListener('click', function(e) {
   }, 6000);
   window.setTimeout(() => {
     soon.style.opacity = 0;
-  }, 10000);
+  }, 11000);
 });
