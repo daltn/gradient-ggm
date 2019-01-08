@@ -1,4 +1,4 @@
-#GGM
+# GGM
 
 E-mail sign up for GGM's upcoming fashion line
 
