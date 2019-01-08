@@ -13,18 +13,7 @@
   src: url('/fonts/Wingdings.ttf');
 }
 
-.gradient {
-  position: absolute;
-  background-image: radial-gradient(#f9f8f6, #f1bcae);
-  background-size: 100wh;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  transition: opacity 9s ease-out;
-}
-
-.gradientSubmit {
+#gradientSubmit {
   position: absolute;
   background-image: radial-gradient(#fab277, #c05b63);
   background-size: 100wh;
@@ -32,6 +21,17 @@
   right: 0;
   bottom: 0;
   left: 0;
+}
+
+#gradient {
+  position: absolute;
+  background-image: radial-gradient(#f9f8f6, #f1bcae);
+  background-size: 100wh;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: opacity 8s ease-out;
 }
 
 ::-webkit-input-placeholder {
@@ -52,13 +52,14 @@
   text-align: center;
 }
 
-#mc_embed_signup_scroll {
+#mc_embed_signup {
   position: absolute;
   display: inline-block;
   text-align: center;
   top: 45%;
   right: 0;
   left: 0;
+  z-index: 10;
 }
 
 div.mc-field-group input {
@@ -71,7 +72,7 @@ div.mc-field-group input {
   border: none;
   outline: none;
   opacity: 0;
-  transition: opacity 2s ease-in;
+  transition: opacity 1.5s ease-in-out;
 }
 
 input.button {
@@ -86,7 +87,16 @@ input.button {
   font-family: Wingdings;
   color: #666666;
   opacity: 0;
-  transition: opacity 2s ease-in;
+  transition: opacity 1.5s ease-in-out;
+}
+
+h2 {
+  font-family: SimplonMono-Regular;
+  text-align: center;
+  color: #ffffff;
+  z-index: 10;
+  opacity: 0;
+  transition: opacity 3s ease-in-out;
 }
 
 @media (max-width: 580px) {
