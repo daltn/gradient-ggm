@@ -2,9 +2,13 @@ const arrow = document.querySelector('#mc-embedded-subscribe');
 const email = document.querySelector('#mce-EMAIL');
 const gradient = document.querySelector('#gradient');
 const form = document.querySelector('#mc-embedded-subscribe-form');
+const ggm = document.querySelector('#ggm-left');
+const ss19 = document.querySelector('#ss19-right');
 
 window.setTimeout(() => {
   email.style.opacity = 1;
+  ss19.style.opacity = 1;
+  ggm.style.opacity = 1;
 }, 1500);
 
 const showArrow = () => {
@@ -19,17 +23,19 @@ arrow.addEventListener('click', function(e) {
   const soon = document.createElement('h2');
   window.setTimeout(() => {
     gradient.style.opacity = 0;
-  }, 2000);
+  }, 1000);
   window.setTimeout(() => {
     parent.removeChild(form);
     const textNode = document.createTextNode('COMING SOON');
     soon.appendChild(textNode);
     parent.appendChild(soon);
-  }, 4000);
+  }, 3000);
   window.setTimeout(() => {
     soon.style.opacity = 1;
-  }, 6000);
+  }, 3500);
   window.setTimeout(() => {
     soon.style.opacity = 0;
-  }, 11000);
+    ggm.style.opacity = 0;
+    ss19.style.opacity = 0;
+  }, 10000);
 });
