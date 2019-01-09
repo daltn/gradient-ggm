@@ -31,7 +31,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  transition: opacity 10s ease-in-out;
+  transition: opacity 8s ease-in-out;
 }
 
 #footer {
@@ -47,7 +47,7 @@
   height: 20px;
   width: 92px;
   opacity: 0;
-  transition: opacity 3s ease-in-out;
+  transition: opacity 2s ease-in-out;
 }
 
 #ss19-right {
@@ -58,7 +58,7 @@
   height: 20px;
   width: 100px;
   opacity: 0;
-  transition: opacity 3s ease-in-out;
+  transition: opacity 2s ease-in-out;
 }
 
 ::-webkit-input-placeholder {
@@ -103,11 +103,14 @@ div.mc-field-group input {
 }
 
 input.button {
+  position: relative;
   display: inline-block;
   font-size: 3.5vh;
+  text-align: center;
   background: transparent;
   border: none;
   outline: none;
+  top: 5vh;
 }
 
 #mc-embedded-subscribe {
@@ -117,19 +120,14 @@ input.button {
   transition: opacity 3s ease-in-out;
 }
 
-h2 {
+h3 {
+  position: relative;
   font-family: SimplonMono-Regular;
   text-align: center;
-  color: #ffffff;
-  size: 3.5vh;
+  font-weight: normal;
+  color: #666666;
+  font-size: 3.5vh;
   z-index: 10;
   opacity: 0;
   transition: opacity 3s ease-in-out;
-}
-
-@media (max-width: 580px) {
-  input[type='email'] {
-    display: block;
-    width: 100%;
-  }
 }
