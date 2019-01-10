@@ -30,13 +30,13 @@ arrow.addEventListener('click', function(e) {
   }, 500);
   window.setTimeout(() => {
     parent.removeChild(form);
-    const textNode = document.createTextNode('coming soon');
+    const textNode = document.createTextNode('COMING SOON');
     soon.appendChild(textNode);
     parent.appendChild(soon);
   }, 3000);
   window.setTimeout(() => {
     soon.style.opacity = 1;
-  }, 8000);
+  }, 7000);
   window.setTimeout(() => {
     soon.style.opacity = 0;
   }, 12000);
