@@ -10,7 +10,6 @@ const initLoad = () => {
     ss19.style.opacity = 1;
     ggm.style.opacity = 1;
   }, 500);
-
   window.setTimeout(() => {
     email.style.opacity = 1;
   }, 2000);
