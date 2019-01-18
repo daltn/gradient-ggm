@@ -20,7 +20,7 @@ const showArrow = () => {
 };
 
 arrow.addEventListener('click', function(e) {
-  // e.preventDefault();
+  e.preventDefault();
   arrow.style.opacity = 0;
   email.style.opacity = 0;
   const parent = document.querySelector('#mc_embed_signup');
