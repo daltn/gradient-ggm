@@ -5,22 +5,23 @@ const form = document.querySelector('#mc-embedded-subscribe-form');
 const ggm = document.querySelector('#ggm-left');
 const ss19 = document.querySelector('#ss19-right');
 
-window.setTimeout(() => {
-  ss19.style.opacity = 1;
-  ggm.style.opacity = 1;
-}, 500);
+const initLoad = () => {
+  window.setTimeout(() => {
+    ss19.style.opacity = 1;
+    ggm.style.opacity = 1;
+  }, 500);
 
-window.setTimeout(() => {
-  email.style.opacity = 1;
-}, 2000);
+  window.setTimeout(() => {
+    email.style.opacity = 1;
+  }, 2000);
+};
 
 const showArrow = () => {
   email.placeholder = '';
   arrow.style.opacity = 1;
 };
 
-arrow.addEventListener('click', function(e) {
-  e.preventDefault();
+const blendGradient = () => {
   arrow.style.opacity = 0;
   email.style.opacity = 0;
   const parent = document.querySelector('#mc_embed_signup');
@@ -40,4 +41,4 @@ arrow.addEventListener('click', function(e) {
   window.setTimeout(() => {
     soon.style.opacity = 0;
   }, 12000);
-});
+};
