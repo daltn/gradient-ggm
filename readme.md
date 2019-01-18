@@ -1,8 +1,6 @@
 # GGM
 
-E-mail signup form but make it fashion for GGM's upcoming clothing line.
-
-[--> deployed version <--](https://nostalgic-hamilton-faf298.netlify.com/)
+E-mail sign up for GGM's upcoming fashion line
 
 ### Design
 
