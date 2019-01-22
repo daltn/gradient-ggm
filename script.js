@@ -37,7 +37,4 @@ const blendGradient = () => {
   window.setTimeout(() => {
     soon.style.opacity = 1;
   }, 7000);
-  window.setTimeout(() => {
-    soon.style.opacity = 0;
-  }, 12000);
 };
