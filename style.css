@@ -15,8 +15,11 @@
 
 #gradientSubmit {
   position: absolute;
-  background-image: radial-gradient(#fab277, #c05b63);
-  background-size: 100wh;
+  background-image: url('/img/ggm-pants-lrg.jpg');
+  background-color: #e8e67f;
+  background-size: 67vh;
+  background-position: center;
+  background-repeat: no-repeat;
   top: 0;
   right: 0;
   bottom: 0;
@@ -25,7 +28,7 @@
 
 #gradient {
   position: absolute;
-  background-image: radial-gradient(#f9f8f6, #f9f263);
+  background-image: radial-gradient(#f9f8f6, #e8e67f);
   background-size: 100wh;
   top: 0;
   right: 0;
@@ -125,7 +128,7 @@ h3 {
   font-family: SimplonMono-Regular;
   text-align: center;
   font-weight: normal;
-  color: #666666;
+  color: #ffffff;
   font-size: 2.8vh;
   z-index: 10;
   bottom: 3vh;
