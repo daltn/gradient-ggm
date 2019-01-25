@@ -13,17 +13,34 @@
   src: url('/fonts/Wingdings.ttf');
 }
 
-#gradientSubmit {
-  position: absolute;
-  background-image: url('/img/ggm-pants-lrg.jpg');
-  background-color: #d0c859;
-  background-size: 63.5vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+@media only screen and (min-width: 761px) {
+  #gradientSubmit {
+    position: absolute;
+    background-image: url('/img/ggm-desktop.jpg');
+    background-color: #d0c859;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  #gradientSubmit {
+    position: absolute;
+    background-image: url('/img/ggm-pants-lrg.jpg');
+    background-color: #d0c859;
+    background-size: 63.5vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
 }
 
 #gradient {
