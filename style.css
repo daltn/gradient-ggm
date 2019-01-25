@@ -51,12 +51,12 @@
   right: 0;
   bottom: 0;
   left: 0;
-  transition: opacity 8s ease-in-out;
+  transition: opacity 10s ease-in-out;
 }
 
 #footer {
   opacity: 0;
-  transition: opacity 3s ease-in-out;
+  transition: opacity 4s ease-in-out;
 }
 
 #ggm-left {
@@ -67,7 +67,7 @@
   height: 20px;
   width: 92px;
   opacity: 0;
-  transition: opacity 2s ease-in-out;
+  transition: opacity 3s ease-in-out;
 }
 
 #ss19-right {
@@ -78,7 +78,7 @@
   height: 20px;
   width: 100px;
   opacity: 0;
-  transition: opacity 2s ease-in-out;
+  transition: opacity 3s ease-in-out;
 }
 
 ::-webkit-input-placeholder {
@@ -123,7 +123,7 @@ div.mc-field-group input {
   border: none;
   outline: none;
   opacity: 0;
-  transition: opacity 3s ease-in-out;
+  transition: opacity 4s ease-in-out;
 }
 
 input.button {
@@ -141,7 +141,7 @@ input.button {
   font-family: Wingdings;
   color: #ffffff;
   opacity: 0;
-  transition: opacity 3s ease-in-out;
+  transition: opacity 4s ease-in-out;
 }
 
 h3 {
@@ -154,5 +154,5 @@ h3 {
   z-index: 10;
   bottom: 3vh;
   opacity: 0;
-  transition: opacity 3s ease-in-out;
+  transition: opacity 4s ease-in-out;
 }
