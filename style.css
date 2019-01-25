@@ -16,9 +16,10 @@
 #gradientSubmit {
   position: absolute;
   background-image: url('/img/ggm-pants-lrg.jpg');
-  background-color: #e8e67f;
-  background-size: 67vh;
+  background-color: #c3bb51;
+  background-size: 63.5vh;
   background-position: center;
+  background-repeat: no-repeat;
   top: 0;
   right: 0;
   bottom: 0;
