@@ -46,7 +46,7 @@
 #gradient {
   position: absolute;
   background-image: linear-gradient(#e5db68, #b7b347);
-  background-size: 100wh;
+  background-size: 100vh;
   top: 0;
   right: 0;
   bottom: 0;
