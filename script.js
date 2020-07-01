@@ -9,10 +9,10 @@ const initLoad = () => {
   window.setTimeout(() => {
     ss19.style.opacity = 1;
     ggm.style.opacity = 1;
-  }, 500);
+  }, 200);
   window.setTimeout(() => {
     email.style.opacity = 1;
-  }, 2000);
+  }, 800);
 };
 
 const showArrow = () => {
